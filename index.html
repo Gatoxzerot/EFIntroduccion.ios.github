@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria - Venta de Departamentos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="imagenes/logod.png" type="image/png">
+
+</head>
+<style>
+     #header-content {
+            display: flex;
+            justify-content: space-between; /* Distribuye los elementos horizontalmente */
+            align-items: center; /* Centra verticalmente los elementos */
+        }
+        
+        #logo {
+            max-width: 250px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+            height: 250px;
+        }
+</style>
+<body>
+    <header>
+        <img src="imagenes/logod.png" id="logo" alt="">
+        <h1>Inmobiliaria Xero</h1>
+    </header>
+    <main>
+        <div id="gallery">
+            <div id="imageContainer">
+                <img id="image" src="imagenes" alt="Departamento">
+            </div>
+            <div id="details">
+                <p id="empresa">Empresa: Empresa Inmobiliaria S.A.</p>
+                <p id="precio">Precio: $250,000</p>
+                <p id="areas">Área: 120 m²</p>
+            </div>
+            <div id="navigation">
+                <button id="prevBtn">Anterior</button>
+                <button id="nextBtn">Siguiente</button>
+            </div>
+        </div>
+        <p id="message"></p>
+    </main>
+    <footer>
+        <!-- Información del pie de página -->
+    </footer>
+    <script src="programa.js"></script>
+</body>
+</html>
